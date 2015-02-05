@@ -6,13 +6,15 @@ module.exports = function(app) {
           id: 1,
           title: "Apples",
           author: 1,
-          body: "body for apples post"
+          body: "body for apples post",
+          date: new Date()
         },
         {
           id: 2,
           title: "Bananas",
           author: 1,
-          body: "body for Bananas"
+          body: "body for Bananas",
+          date: new Date()
         }
       ];
 
